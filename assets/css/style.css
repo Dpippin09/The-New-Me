@@ -1,5 +1,5 @@
-/* Reset some basic elements */
-body, h1, h2, p, ul, li, a {
+Reset some basic elements
+//body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -9,15 +9,15 @@ body, h1, h2, p, ul, li, a {
 
 /* Basic styling */
 body {
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #000000;
+    background-color: #552626;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #5e2626;
+    color: #000000;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #0779e4 3px solid;
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     padding: 15px 20px;
     display: inline-block;
 }
@@ -47,7 +47,7 @@ nav ul li a {
 /* Main content area */
 main {
     padding: 20px;
-    background: #fff;
+    background: #444242;
 }
 
 main > section {
@@ -94,6 +94,6 @@ footer {
 }
 
 footer a {
-    color: #fff;
+    color: #000000;
     padding: 0 10px;
 }
