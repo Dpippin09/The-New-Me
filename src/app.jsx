@@ -10,7 +10,6 @@ function App() {
   return (
     <Router>
       <div>
-        {/* Navigation and other layout components can go here */}
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />

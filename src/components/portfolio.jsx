@@ -16,7 +16,7 @@ function Portfolio() {
       imageUrl: 'url-to-image-of-project-2',
       projectUrl: 'url-to-project-2',
     },
-    // Add more projects as needed
+    
   ];
 
   return (

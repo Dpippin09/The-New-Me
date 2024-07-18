@@ -17,7 +17,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to an API or email
+    
     console.log(formData);
     alert('Thank you for your message. We will get back to you soon!');
   };
@@ -61,7 +61,7 @@ function Contact() {
         <h2>Other Ways to Contact Us</h2>
         <p>Email: your.email@example.com</p>
         <p>LinkedIn: yourlinkedinprofile</p>
-        {/* Add other contact methods if necessary */}
+        
       </section>
     </div>
   );
