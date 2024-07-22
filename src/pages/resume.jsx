@@ -1,48 +1,28 @@
-import React from 'react';
+import "../Styles/Resume.css";
+import Skills from "../components/Skills";
 
-function Resume() {
+export default function Resume() {
   return (
-    <div>
-      <h1>My Resume</h1>
-      <section>
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <strong>Job Title</strong> - Company Name (Year - Year)
-            <p>Brief description of your responsibilities and achievements.</p>
-          </li>
-          
-        </ul>
-      </section>
-      
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li>
-            <strong>Degree</strong> - Institution Name (Year - Year)
-            <p>Short description or major subjects.</p>
-          </li>
-          
-        </ul>
-      </section>
-      
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-          
-        </ul>
-      </section>
-      
-      <section>
-        <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>LinkedIn: yourlinkedinprofile</p>
-        
-      </section>
+    <div className="resume-container">
+      <div className="resume-download">
+        <a 
+          href="../assets/BrennanWaterbury.pdf" 
+          download="BrennanWaterbury.pdf"
+          className="resume-link"
+        >
+          Download Resume
+        </a>
+      </div>
+      <Skills />
+      <div className="resume-viewer">
+        <iframe
+          src="../assets/BrennanWaterbury.pdf"
+          width="100%"
+          height="600px"
+          title="Resume"
+        >
+        </iframe>
+      </div>
     </div>
   );
 }
-
-export default Resume;
