@@ -5,16 +5,14 @@ export default function Footer() {
     <footer id="footer">
       <div className="col col1">
         <div className="social">
-          <SocialIcon url="https://github.com/bwater47" network="github" />
+          <SocialIcon url="" network="github" />
           <SocialIcon
-            url="https://linkedin.com/in/brennan-waterbury"
+            url="https://linkedin.com/in/"
             network="linkedin"
           />
-          <SocialIcon url="https://x.com/brennnn23" network="x" />
+          
         </div>
-        <p>
-          2024 © Brennan Waterbury
-        </p>
+        
       </div>
     </footer>
   );

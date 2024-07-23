@@ -1,5 +1,5 @@
-import "../Styles/Contact.css";
-import { useForm } from "../components/Form";
+import "../styles/contact.css";
+import { useForm } from "../components/form";
 
 export default function Contact() {
   const { formData, errorMessages, handleInputChange, handleInputBlur, handleFormSubmit } = useForm();

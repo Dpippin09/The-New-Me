@@ -1,5 +1,5 @@
 // Import the styles from App.css.
-import "../Styles/NotFound.css";
+import "../styles/notFound.css";
 // Export the NotFound function for the app to display the 404 page when the user navigates to a page that does not exist.
 export default function NotFound() {
   return (
