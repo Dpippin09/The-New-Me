@@ -1,96 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer Portfolio</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-     <link rel="stylesheet" href="/public/css/highlight.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David's New Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <h1>David Pippin</h1>
-        <nav>
-            <img src="/src/assets/images/David.jpg" height="300px" alt="David the Developer">
-            <ul>
-                <li><a href="#about" id="nav-about">About Me</a></li>
-                <li><a href="#portfolio" id="nav-portfolio">Portfolio</a></li>
-                <li><a href="#contact" id="nav-contact">Contact</a></li>
-                <li><a href="#resume" id="nav-resume">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hey there it's nice to meet you!  My name is David Pippin and I'm a Full Stack Web Developer, here to try and make the digital work a more user friendly and secured place.  I'm married to the the most beautiful woman on earth and my wife and I have a wonderful daughter.  I'm definitely a family man through and through and getting into web development is what I'm doing to make sure my family has the best life that I can provide.   </p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <!-- These are my portfolio projects -->
-            <div class="myProjects">
-                <a href="https://github.com/Bcz25/Active-Peak" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Active Peak</h3>
-                        <img src="assets/images/githup.jpg" height="50px" alt="A workout instruction program">
-                    </div>
-                </a>
-                <a href="https://github.com/Dpippin09/Edit-my-Text" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Edit my Text</h3>
-                        <img src="assets/images/google.jpg" height="50px" alt="A text editing program">
-                    </div>
-                </a>
-                <a href="https://github.com/Dpippin09/Socialize" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Socialize</h3>
-                        <img src="assets/images/amazon.jpg" height="50px" alt="A social networking API">
-                    </div>
-                </a>
-                <a href="https://github.com/Dpippin09/Posted-to-Ghosted" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Posted to Ghosted</h3>
-                        <img src="assets/images/amazon.jpg" height="50px" alt="A blog posting program">
-                    </div>
-                </a>
-                <a href="https://github.com/Dpippin09/Note-to-Self" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Note to Self</h3>
-                        <img src="assets/images/amazon.jpg" height="50px" alt="A note taking program">
-                    </div>
-                </a>
-                <a href="https://github.com/Dpippin09/Track-Work" target="_blank" rel="noopener noreferrer" class="myProjects">
-                    <div>
-                        <h3>Track Work</h3>
-                        <img src="assets/images/amazon.jpg" height="50px" alt="A program to track your employee's work">
-                    </div>
-                </a>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
-        <section id="resume">
-            <h2>Resume</h2>
-            <a href="assets/resume/resume.pdf" download>Download Resume</a>
-            <!-- List of proficiencies here -->
-        </section>
-    </main>
-    <footer>
-        <a href="https://github.com/developerusername">GitHub</a>
-        <a href="https://linkedin.com/in/developerusername">LinkedIn</a>
-        <a href="https://twitter.com/developerusername">Twitter</a>
-    </footer>
-    <script src="/public/js/navigation.js"></script>
-    <script src="/public/js/validation.js"></script>
+  <div id="root"></div>
+  <script type="module" src="src/main.jsx"></script>
 </body>
+
 </html>
