@@ -36,12 +36,12 @@ p {
 
 /* Links */
 a {
-  color: #007bff;
+  color: #02e9fa;
   text-decoration: none;
 }
 
 a:hover {
-  color: #0056b3;
+  color: #3f00b3;
 }
 
 /* Utility classes */

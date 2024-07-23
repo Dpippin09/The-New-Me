@@ -1,12 +1,12 @@
 import "../Styles/About.css"; // Ensure this is the correct path for your CSS file
-import DavidImage from "../assets/"; // Update with the correct path
+import myImage from "../assets/"; // Update with the correct path
 import { TypeAnimation } from "react-type-animation";
 
 export default function About() {
   return (
     <div className="about">
       <div className="about-img">
-        <img src={DavidImage} alt="David Pippin" />
+        <img src={myImage} alt="David Pippin" />
       </div>
       <div className="about-description">
         <h1>
