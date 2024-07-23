@@ -1,25 +1,23 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import NotFound from './NotFound';
+// Import useState from react and Outlet from react-router-dom.
+import { useState } from "react";
+import { Outlet } from "react-router-dom";
+// Import App.css.
+import "./app.css";
+// Import Header and Footer components.
+import NavTabs from "./components/ui/navTabs";
+import Footer from "./components/footer";
 
-function App() {
+// Export the function App to the main.jsx file for rendering.
+export default function App() {
+const [currentPage, setCurrentPage] = useState("About");
+  // Return the JSX for the App component.
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route component={NotFound} />
-        </Switch>
-      </div>
-    </Router>
+    <div id="app">
+      <NavTabs currentPage={currentPage} handlePageChange={setCurrentPage} />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   );
 }
-
-export default App;

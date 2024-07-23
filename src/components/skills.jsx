@@ -1,4 +1,4 @@
-import "../Styles/Skills.css";
+import "../styles/skills.css";
 import Marquee from "react-fast-marquee";
 
 export default function Skills() {

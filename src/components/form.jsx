@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../utils/helper";
 
 export const useForm = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +20,7 @@ export const useForm = () => {
       [name]: value,
     });
 
-    // Clear the specific field error when it changes
+    
     setErrorMessages({
       ...errorMessages,
       [name]: "",
@@ -49,7 +49,7 @@ export const useForm = () => {
     let newErrorMessages = {};
     let hasError = false;
 
-    // Validate each field
+    // Validate the fields
     if (!formData.name.trim()) {
       newErrorMessages.name = "Name is required";
       hasError = true;

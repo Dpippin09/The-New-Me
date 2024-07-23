@@ -1,5 +1,5 @@
 import projectsData from "../components/ui/projectData.jsx";
-import "../Styles/Projects.css";
+import "../styles/projects.css";
 
 export default function Projects() {
   return (
