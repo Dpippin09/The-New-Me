@@ -26,15 +26,15 @@
     width: 300px; /* Increase width */
     height: 300px; /* Increase height */
     object-fit: cover;
-    border: 5px solid #274c77; /* Border color to match theme */
+    border: 5px solid #344e41; /* Border color to match theme */
   }
   
   .about-description {
     flex: 0.5;
     padding: 2rem; /* Increase padding for more space inside the box */
-    border: 2px solid #274c77; /* Border around the description */
+    border: 2px solid #344e41; /* Border around the description */
     border-radius: 10px; /* Rounded corners */
-    background-color: #8b8c89; /* Background color of the box */
+    background-color: #3a5a40; /* Background color of the box */
     max-width: 62.5rem; /* Increase max width for larger content area */
     text-align: left; /* Align text to the left for larger screens */
     position: relative; /* Ensure the description box stays in place */

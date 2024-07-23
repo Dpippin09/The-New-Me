@@ -1,7 +1,7 @@
 /* General card styles */
 .card-custom {
-    background-color: #8b8c89;
-    border-color: #274c77;
+    background-color: #588157;
+    border-color: #344e41;
     border-width: 3px;
     border-style: solid;
     position: relative;
@@ -23,8 +23,8 @@
   }
   
   .btn-custom {
-    background-color: #6096ba;
-    border-color: #274c77;
+    background-color: #a3b18a;
+    border-color: #3a5a40;
     display: block; /* Show the button */
     text-align: center;
     width: 100%;
@@ -33,12 +33,12 @@
   
   /* Styles for button states */
   .btn-custom:hover {
-    background-color: #a3cef1;
-    border-color: #6096ba;
+    background-color: #cad2c5;
+    border-color: #84a98c;
   }
   
   .btn-custom:active {
-    background-color: #6096ba;
+    background-color: #90a955;
     color: #8b8c89;
     border: none;
   }
@@ -90,8 +90,8 @@
     }
   
     .btn-custom {
-      background-color: #6096ba;
-      border-color: #274c77;
+      background-color: #a3b18a;
+      border-color: #3a5a40;
       display: block; /* Show the button */
       text-align: center;
       width: 100%;
@@ -100,12 +100,12 @@
     
     /* Styles for button states */
     .btn-custom:hover {
-      background-color: #a3cef1;
-      border-color: #6096ba;
+      background-color: #a3b18a;
+      border-color: #52796f;
     }
     
     .btn-custom:active {
-      background-color: #6096ba;
+      background-color: #52796f;
       color: #8b8c89;
       border: none;
     }
