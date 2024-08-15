@@ -1,4 +1,4 @@
-import tweetcode from "./assets/tweetcode.png";
+import tweetcode from "../../assets/tweetcode.png";
 import ActivePeakImage from "./assets/ActivePeak.png";
 import PWAImage from "./assets/PWA.png";
 import SocialAPIImage from "./assets/SocialAPI.png";
@@ -7,6 +7,12 @@ import HRTrackSuiteImage from "./assets/HRTrackSuite.png";
 
 
 const projectsData = [
+  {
+    title: "Tweet Code",
+    image: tweetcode,
+    repoLink: " https://github.com/bwater47/Tweet-Code",
+    liveLink: " https://tweet-code-ytyj.onrender.com/"
+  },
     {
       title: "Active Peak",
       image: ActivePeakImage,
@@ -18,12 +24,6 @@ const projectsData = [
       image: EditMyTextImage,
       repoLink: "https://github.com/Dpippin09/Edit-my-Text",
       liveLink: "#"
-    },
-    {
-      title: "Tweet Code",
-      image: tweetcode,
-      repoLink: " https://github.com/bwater47/Tweet-Code",
-      liveLink: " https://tweet-code-ytyj.onrender.com/"
     },
     {
       title: "Project 4",
