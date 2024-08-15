@@ -1,4 +1,4 @@
-import tweetcode from "../../assets/tweetcode.png";
+import tweetcode from "../../../assets/tweetcode.png";
 import ActivePeakImage from "./assets/ActivePeak.png";
 import PWAImage from "./assets/PWA.png";
 import SocialAPIImage from "./assets/SocialAPI.png";
