@@ -2,20 +2,20 @@ const projectsData = [
     {
       title: "Project 1",
       image: "https://via.placeholder.com/150",
-      repoLink: "#",
-      liveLink: "#"
+      repoLink: "https://github.com/Dpippin09/Active-Peak",
+      liveLink: "active-peak2.onrender.com/"
     },
     {
       title: "Project 2",
       image: "https://via.placeholder.com/150",
-      repoLink: "#",
+      repoLink: "https://github.com/Dpippin09/Edit-my-Text",
       liveLink: "#"
     },
     {
       title: "Project 3",
       image: "https://via.placeholder.com/150",
-      repoLink: "#",
-      liveLink: "#"
+      repoLink: " https://github.com/bwater47/Tweet-Code",
+      liveLink: " https://tweet-code-ytyj.onrender.com/"
     },
     {
       title: "Project 4",
