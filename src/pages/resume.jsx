@@ -9,8 +9,8 @@ export default function Resume() {
     <div className="resume-container">
       <div className="resume-download">
         <a
-          href="/Davidpippin.pdf"
-          download="Davidpippin.pdf"
+          href="/DavidPippinResume.pdf"
+          download="DavidPippinResume.pdf"
           className="resume-link"
         >
           Download Resume
