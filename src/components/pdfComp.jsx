@@ -1,7 +1,7 @@
 // Import PDFComp styles from PDFComp.css.
-// import "../styles/PDFComp.css";
+import "../Styles/PDFComp.css";
 // Import the Brennan PDF file.
-import David from "../assets/myResume.pdf";
+import Brennan from "../assets/ViewPDF.pdf";
 // Import the useState hook from React.
 import { useState } from "react";
 // Import the pdfjs, Document, and Page components from react-pdf.
@@ -18,9 +18,10 @@ export default function PDFComponent() {
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
+  // Return the JSX for the PDFComponent.
   return (
     <div className="pdf-container">
-      <Document file={David} onLoadSuccess={onDocumentLoadSuccess}>
+      <Document file={Brennan} onLoadSuccess={onDocumentLoadSuccess}>
         {/* Create an array of pages to display the PDF. */}
         {Array.apply(null, Array(numPages))
           .map((_, i) => i + 1)
