@@ -1,4 +1,6 @@
 # The-New-Me
+URL: https://thenewdavidpippin.netlify.app/
+
 This is my new and improved Web Development portfolio.
 Please come take a look at my new site!  Here you can reach out to me or send me your contact info if you ever want to work on a prject together or just share ideas. I will also be adding to this site so please let me know what you think I should add to make this look awesome!
 
