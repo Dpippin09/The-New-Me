@@ -1,4 +1,4 @@
-import tweetcode from "../../assets/tweetcode.png";
+import tweetCode from "../../assets/tweetCode.png";
 import ActivePeak from "../../assets/ActivePeak.png";
 import PWA from "../../assets/PWA.png";
 
@@ -7,7 +7,7 @@ import PWA from "../../assets/PWA.png";
 const projectsData = [
   {
     title: "Tweet Code",
-    image: tweetcode,
+    image: tweetCode,
     repoLink: " https://github.com/bwater47/Tweet-Code",
     liveLink: " https://tweet-code-ytyj.onrender.com/"
   },
