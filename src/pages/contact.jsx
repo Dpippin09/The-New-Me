@@ -1,48 +1,21 @@
-import "../styles/contact.css";
-import { useForm } from "../components/form";
-
+// Import the useState hook from React.
+import { useState } from "react";
+// Import the Contact.css file.
+import "../Styles/Contact.css";
+// Import the EmailForm component.
+import EmailForm from "../components/EmailForm";
+// Export the Contact component to the router in main.jsx.
 export default function Contact() {
-  const { formData, errorMessages, handleInputChange, handleInputBlur, handleFormSubmit } = useForm();
-
+  // Declare a variable formData and a function setFormData with the useState hook.
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  // Return the JSX for the Contact component.
   return (
     <div className="contact-container text-center">
-      <h1>Hello {formData.name || "Friend"}!</h1>
-      <form className="contact-form" onSubmit={handleFormSubmit}>
-        <input
-          className="contact-input"
-          value={formData.email}
-          name="email"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          type="email"
-          placeholder="Email"
-        />
-        {errorMessages.email && <p className="error-text">{errorMessages.email}</p>}
-        
-        <input
-          className="contact-input"
-          value={formData.name}
-          name="name"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          type="text"
-          placeholder="Name"
-        />
-        {errorMessages.name && <p className="error-text">{errorMessages.name}</p>}
-        
-        <textarea
-          className="contact-textarea"
-          value={formData.message}
-          name="message"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          placeholder="Message"
-          rows="5"
-        />
-        {errorMessages.message && <p className="error-text">{errorMessages.message}</p>}
-        
-        <button className="contact-button" type="submit">Submit</button>
-      </form>
+      <EmailForm formData={formData} setFormData={setFormData} />
     </div>
   );
 }
