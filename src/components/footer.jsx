@@ -6,16 +6,15 @@ export default function Footer() {
     <footer id="footer">
       <div className="col col1">
         <div className="social">
-          <SocialIcon url="https://github.com/bwater47" network="github" />
+          <SocialIcon url="https://github.com/Dpippin09" network="github" />
           <SocialIcon
-            url="https://linkedin.com/in/brennan-waterbury"
+            url="https://www.linkedin.com/in/david-pippin-7b0b3b1b9/"
             network="linkedin"
           />
-          <SocialIcon url="https://x.com/brennnn23" network="x" />
-          <SocialIcon url="https://leetcode.com/u/bwater47/" network="leetcode" />
+          
         </div>
         <p>
-          2024 © Brennan Waterbury
+          2024 © David Pippin
         </p>
       </div>
     </footer>

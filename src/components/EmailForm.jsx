@@ -3,7 +3,7 @@ import { useState } from "react";
 // Import emailjs from emailjs-com.
 import emailjs from "@emailjs/browser";
 // Import validateEmail from helpers.
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../utils/helper";
 // Import Modal component.
 import Modal from "../components/Modal";
 // Create and export the EmailForm component.
@@ -73,9 +73,9 @@ const EmailForm = ({ formData, setFormData }) => {
       return;
     }
     // Set up the emailjs parameters.
-    const serviceId = "service_gewmj8o";
-    const templateId = "template_15y9tlk";
-    const publicKey = "4nJKhzG30rj7k3Fhn";
+    const serviceId = "service_f2e4t6d";
+    const templateId = "template_233r1qx";
+    const publicKey = "X0hvTySfcS1-QzsLY";
     // Setup the email template parameters.
     const templateParams = {
       from_name: formData.name,
