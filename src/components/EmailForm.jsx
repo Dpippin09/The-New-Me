@@ -3,7 +3,7 @@ import { useState } from "react";
 // Import emailjs from emailjs-com.
 import emailjs from "@emailjs/browser";
 // Import validateEmail from helpers.
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../utils/helpers";
 // Import Modal component.
 import Modal from "../components/Modal";
 // Create and export the EmailForm component.
