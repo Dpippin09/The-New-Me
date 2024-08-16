@@ -1,7 +1,7 @@
 // Import the styles from resume.css.
-import "../Styles/Resume.css";
+import "../styles/resume.css";
 // Import the Skills and PDFComp components.
-import Skills from "../components/Skills";
+import Skills from "../components/skills";
 // import PDFComponent from "../components/PDFComp.jsx";
 // Export the Resume component to the router in main.jsx.
 export default function Resume() {
@@ -9,8 +9,8 @@ export default function Resume() {
     <div className="resume-container">
       <div className="resume-download">
         <a
-          href="/BrennanWaterbury.pdf"
-          download="BrennanWaterbury.pdf"
+          href="/Davidpippin.pdf"
+          download="Davidpippin.pdf"
           className="resume-link"
         >
           Download Resume
