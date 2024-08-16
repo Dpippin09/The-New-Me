@@ -80,7 +80,7 @@ const EmailForm = ({ formData, setFormData }) => {
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
-      to_name: "Brennan Waterbury",
+      to_name: "David Pippin",
       message: formData.message,
     };
     // Send the email using emailjs.

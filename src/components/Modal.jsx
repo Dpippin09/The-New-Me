@@ -1,5 +1,5 @@
 // Import Modal.css for styles.
-import "../Styles/Modal.css";
+import "../styles/Modal.css";
 // Create a Modal component to display messages to the user.
 const Modal = ({ isOpen, onClose, message }) => {
   // If the Modal is not open, return null.

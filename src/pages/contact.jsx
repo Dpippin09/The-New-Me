@@ -1,7 +1,7 @@
 // Import the useState hook from React.
 import { useState } from "react";
 // Import the Contact.css file.
-import "../Styles/Contact.css";
+import "../styles/contact.css";
 // Import the EmailForm component.
 import EmailForm from "../components/EmailForm";
 // Export the Contact component to the router in main.jsx.
