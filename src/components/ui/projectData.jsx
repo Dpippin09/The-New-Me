@@ -1,6 +1,6 @@
-import tweetcode from "./assets/tweetcode.png";
-import ActivePeak from "./assets/ActivePeak.png";
-import PWA from "./assets/PWA.png";
+import tweetcode from "../../assets/tweetcode.png";
+import ActivePeak from "../../assets/ActivePeak.png";
+import PWA from "../../assets/PWA.png";
 
 
 
