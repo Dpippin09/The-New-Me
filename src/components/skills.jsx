@@ -1,5 +1,5 @@
 // Import the Skills styles from Skills.css.
-import "../Styles/Skills.css";
+import "../styles/skills.css";
 // Import the Marquee component from react-fast-marquee.
 import Marquee from "react-fast-marquee";
 // Export the Skills component.
