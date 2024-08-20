@@ -14,13 +14,13 @@
 }
 
 .header-custom-background {
-  background-color: #274c77; /* Set the background color using coolors. */
+  background-color: #90a955; /* Set the background color using coolors. */
 }
 
 .nameDisplay {
   font-family: "BestermindRegular", sans-serif;
   font-size: 2.5em;
-  color: #e7ecef;
+  color: #354f52;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -36,14 +36,14 @@
 }
 
 .nav-link.active {
-  background-color: #6096ba; /* Background color when active. */
-  color: #8b8c89; /* Text color for active button. */
+  background-color: #ecf39e; /* Background color when active. */
+  color: #98c9a3; /* Text color for active button. */
   border: none; /* Ensure no border appears. */
 }
 
 .nav-link:hover {
-  background-color: #a3cef1;
-  color: #6096ba; /* Change text color on hover. */
+  background-color: #bfd8bd;
+  color: #84a98c; /* Change text color on hover. */
 }
 
 .nav-item {
@@ -73,7 +73,7 @@
 
 /* Footer Styling. */
 footer {
-  background-color: #274c77; /* Dark background for the footer. */
+  background-color: #354f52; /* Dark background for the footer. */
   color: #ffffff; /* Light text color. */
   padding: 2rem;
   display: flex;
