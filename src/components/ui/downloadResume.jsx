@@ -13,4 +13,4 @@ const DownloadResume = () => {
   );
 };
 
-export default DownloadResume;
+export default DownloadResume;  
