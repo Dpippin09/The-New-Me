@@ -1,5 +1,5 @@
 // Import projectsData from projectData.jsx.
-import projectsData from "../components/ui/projectData.jsx";
+import projectsData from "../projectData.jsx";
 // Import the Projects.css file for styles.
 import "../styles/projects.css";
 // Create and export the Projects component to display the projects on the Portfolio page.

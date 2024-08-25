@@ -1,5 +1,5 @@
 import React from 'react';
-import './resume.css'; // Import the CSS file
+import '../../../src/styles/resume.css'; // Import the CSS file
 
 const DownloadResume = () => {
   return (
