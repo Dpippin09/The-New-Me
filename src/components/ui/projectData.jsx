@@ -4,7 +4,7 @@ import PWA from "../../assets/PWA.png";
 
 
 
-const projectsData = [
+const projectData = [
   {
     title: "Tweet Code",
     image: tweetCode,
@@ -43,4 +43,4 @@ const projectsData = [
   }
 ];
 
-export default projectsData;
+export default projectData;
