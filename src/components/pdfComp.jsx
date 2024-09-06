@@ -1,7 +1,7 @@
 // Import PDFComp styles from PDFComp.css.
 import "../styles/pdfComp.css";
 // Import the Brennan PDF file.
-import Brennan from "../assets/ViewPDF.pdf";
+import Brennan from "/assets/ViewPDF.pdf";
 // Import the useState hook from React.
 import { useState } from "react";
 // Import the pdfjs, Document, and Page components from react-pdf.

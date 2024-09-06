@@ -1,7 +1,7 @@
 // Import About styles from About.css.
 import "../styles/about.css";
 // Import BrennanImage from assets folder.
-import DavidImage from "../assets/davidImage.jpg";
+import DavidImage from "/assets/davidImage.jpg";
 // Import TypeAnimation from react-type-animation.
 import { TypeAnimation } from "react-type-animation";
 // Export the About component to the router in main.jsx.
